@@ -31,6 +31,27 @@
             border-right-color: crimson;
             border-right-width: 5px;
             padding-right: 5px;
+            border-left-style: solid;
+            border-left-color: crimson;
+            border-left-width: 5px;
+            padding-left: 5px;
+            margin-left: 1370px;
+        }
+        .wholetable {
+            border: 3px solid crimson;
+            border-left-width: 10px;
+            padding-left: 5px;
+            padding-right: 5px;
+            font-family: monospace;
+            padding-top: 2px;
+            padding-bottom: 5px;
+        }
+        td {
+            border: 2px solid rgb(255, 48, 90);
+            padding: 5px 40px;
+        }
+        a.hyperlinks {
+            color: rgb(0, 0, 0);
         }
     </style>
 </head>
@@ -38,5 +59,11 @@
     <h1 class="title">List of Journals Published</h1>
     <p class="titlesort">*sorted chronologically</p>
     <p class="update">Last Updated: Aug 2022</p>
+    <br>
+    <table class="wholetable">
+        <tr><th>Title</th><th>Topic</th><th>Date</th><th>Length</th></th>
+        <tr><td><a class="hyperlinks" href="/articles/HTML+CSS-Talk-1.html">Why am I using HTML+CSS to make this website?</a></td><td>HTML+CSS Talk</td><td>21 August 2022</td><td>1 minute</td></tr>
+        <tr><td><a class="hyperlinks" href="/articles/Entertainment-1.html">Rick and Morty</a></td><td>Entertainment</td><td>21 August 2022</td><td>5 minutes</td></tr>
+    </table>
 </body>
 </html>
