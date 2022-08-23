@@ -4,6 +4,7 @@
 
 1. file named "index.html" is the main index page for all the journals published
 <br>
+
 To Do:
 - Fix back to Index on articles
 - Add more articles
