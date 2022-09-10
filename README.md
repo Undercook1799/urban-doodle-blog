@@ -6,6 +6,7 @@
 <br>
 
 To Do:
+- Fix September dates on Articles
 - Add more articles (hopefully an article per day)
 - Improve CSS interfaces on main screen
 - Improve aesthetics on main screen
