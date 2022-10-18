@@ -1,73 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index / Main Screen</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index/Home Page</title>
     <style>
-        .title {
-            text-align: center;
-            font-family: monospace;
-            color: sienna;
-            border-top-style: groove;
-            border-top-width: 12px;
-            padding-top: 15px;
-        }
-        .titlesort {
-            text-align: center;
-            font-family: monospace;
-            color: crimson;
-            padding-left: 205px;
-            border-bottom-style: groove;
-            border-bottom-width: 12px;
-            padding-bottom: 15px;
-        }
-        .update {
-            text-align: right;
-            font-family: monospace;
-            color: rgb(163, 163, 163);
-            border-right-style: solid;
-            border-right-color: crimson;
-            border-right-width: 5px;
-            padding-right: 5px;
-            border-left-style: solid;
-            border-left-color: crimson;
-            border-left-width: 5px;
-            padding-left: 5px;
-            margin-left: 1370px;
-        }
-        .wholetable {
-            border: 3px solid crimson;
-            border-left-width: 10px;
-            padding-left: 5px;
-            padding-right: 5px;
-            font-family: monospace;
-            padding-top: 2px;
-            padding-bottom: 5px;
-        }
-        td {
-            border: 2px solid rgb(255, 48, 90);
-            padding: 5px 40px;
-        }
-        a.hyperlinks {
-            color: rgb(0, 0, 0);
-        }
+      h1.titlename {
+        text-align: center;
+        font-family: monospace;
+        background-color: sienna;
+        color: whitesmoke;
+        text-decoration-color: black;
+        text-decoration-thickness: 2px;
+        padding-top: 12px;
+        padding-bottom: 5px;
+        border-width: 100px;
+      }
+      p.update {
+        text-align: right;
+        font-family: monospace;
+        color: gray;
+        border-right-style: solid;
+        border-right-color: crimson;
+        border-right-width: 5px;
+        padding-right: 5px;
+      }
+      .table {
+        font-family: monospace;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        border-width: 4px;
+        padding-top: 5px;
+      }
+      .tableheader {
+        font-size: 12px;
+        background-color: crimson;
+        color: whitesmoke;
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+      td {
+        padding-top: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+      .links {
+        text-decoration: none;
+      }
+      p.undercook1799header {
+        font-family: monospace;
+        font-size: 14px;
+        text-align: center;
+      }
+      p.undercook1799 {
+        font-family: monospace;
+        text-decoration: none;
+        text-align: center;
+      }
+      .copyleft {
+        font-family: monospace;
+        text-align: right;
+      }
     </style>
-</head>
-<body>
-    <h1 class="title">List of Journals Published</h1>
-    <p class="titlesort">*sorted chronologically</p>
-    <p class="update">Last Updated: Sep 2022</p>
-    <br>
-    <table class="wholetable">
-        <tr><th>Title</th><th>Topic</th><th>Date</th><th>Length</th></th>
-        <tr><td><a class="hyperlinks" href="https://undercook1799.github.io/urban-doodle-blog/articles/HTML+CSS-Talk-1.html">Why am I using HTML+CSS to make this website?</a></td><td>HTML+CSS Talk</td><td>21 August 2022</td><td>1 minute</td></tr>
-        <tr><td><a class="hyperlinks" href="https://undercook1799.github.io/urban-doodle-blog/articles/Entertainment-1.html">Rick and Morty</a></td><td>Entertainment</td><td>21 August 2022</td><td>1 minute</td></tr>
-        <tr><td><a class="hyperlinks" href="https://undercook1799.github.io/urban-doodle-blog/articles/Entertainment-2.html">Saints Row Game</a></td><td>Entertainment</td><td>22 August 2022</td><td>1 minute</td></tr>
-        <tr><td><a class="hyperlinks" href="https://undercook1799.github.io/urban-doodle-blog/articles/Study-1.html">Anki Studying App</a></td><td>Study</td><td>23 August 2022</td><td>1 minute</td></tr>
-        <tr><td><a class="hyperlinks" href="https://undercook1799.github.io/urban-doodle-blog/articles/Socials-1.html">Social Media Surplus</a></td><td>Socials</td><td>27 August 2022</td><td>1 minute</td></tr>
-        <tr><td><a class="hyperlinks" href="https://undercook1799.github.io/urban-doodle-blog/articles/Entertainment-3.html">Pop It Before It Breaks on YouTube Music</a></td><td>Entertainment</td><td>9 September 2022</td><td>1 minute</td></tr>
+  </head>
+  <body>
+    <h1 class="titlename">All Published Journals</h1>
+    <p class="update">Last Updated: October 2022</p>
+    <table class="table">
+      <tr>
+        <th class="tableheader">Title</th>
+        <th class="tableheader">Topic</th>
+        <th class="tableheader">Date Published</th>
+        <th class="tableheader">Read Time</th>
+      </tr>
+      <tr>
+        <td>
+          <a
+            class="links"
+            href="https://undercook1799.github.io/urban-doodle-blog/articles/HTML+CSS-Talk-1.html"
+            target="_blank"
+            >Using HTML to create this Website</a
+          >
+        </td>
+        <td>Programming</td>
+        <td>21 August 2022</td>
+        <td>1 Minute</td>
+      </tr>
+      <tr>
+        <td>
+          <a
+            class="links"
+            href="https://undercook1799.github.io/urban-doodle-blog/articles/Entertainment-1.html"
+            target="_blank"
+            >Rick and Morty</a
+          >
+        </td>
+        <td>Entertainment</td>
+        <td>21 August 2022</td>
+        <td>1 Minute</td>
+      </tr>
+      <tr>
+        <td>
+          <a
+            class="links"
+            href="https://undercook1799.github.io/urban-doodle-blog/articles/Entertainment-2.html"
+            >Saints Row Game</a
+          >
+        </td>
+        <td>Entertainment</td>
+        <td>22 August 2022</td>
+        <td>1 Minute</td>
+      </tr>
+      <tr>
+        <td>
+          <a
+            class="links"
+            href="https://undercook1799.github.io/urban-doodle-blog/articles/Study-1.html"
+            >Anki Study App</a
+          >
+        </td>
+        <td>Study</td>
+        <td>23 August 2022</td>
+        <td>1 Minute</td>
+      </tr>
+      <tr>
+        <td>
+          <a
+            class="links"
+            href="https://undercook1799.github.io/urban-doodle-blog/articles/Socials-1.html"
+            >Social Media Surplus</a
+          >
+        </td>
+        <td>Socials</td>
+        <td>27 August 2022</td>
+        <td>1 Minute</td>
+      </tr>
+      <tr>
+        <td>
+          <a
+            class="links"
+            href="https://undercook1799.github.io/urban-doodle-blog/articles/Entertainment-3.html"
+            >Pop It Before It Breaks on YouTube Music</a
+          >
+        </td>
+        <td>Entertainment</td>
+        <td>9 September 2022</td>
+        <td>1 Minute</td>
+      </tr>
+      <tr>
+        <td>
+          <a
+            class="links"
+            href="https://undercook1799.github.io/urban-doodle-blog/articles/Entertainment-4.html"
+            >The Owl House Season 1 Review Cram</a
+          >
+        </td>
+        <td>Entertainment</td>
+        <td>17 October 2022</td>
+        <td>1 Minute</td>
+      </tr>
     </table>
-</body>
+  </body>
+  <footer>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <hr />
+    <p class="undercook1799header">Undercook1799's Other Stuff</p>
+    <p class="undercook1799"><a href="" target="_blank">Art Gallary</a></p>
+    <p class="undercook1799"><a href="" target="_blank">Github Profile</a></p>
+    <p class="undercook1799"><a href="" target="_blank">Page Repository</a></p>
+    <br />
+    <p class="copyleft">&#127279; Copyleft | For the Better</p>
+    <br />
+  </footer>
 </html>
