@@ -7,5 +7,5 @@
 
 To Do:
 <ol>
-- Add more articles (hopefully an article per day)
+Add more articles (hopefully an article per day)
 </ol>
