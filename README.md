@@ -6,8 +6,6 @@
 <br>
 
 To Do:
-- Fix September dates on Articles
+<ol>
 - Add more articles (hopefully an article per day)
-- Improve CSS interfaces on main screen
-- Improve aesthetics on main screen
-- Make a "book" as the index.html mainpage using CSS
+</ol>
